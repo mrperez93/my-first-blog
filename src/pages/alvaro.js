@@ -19,10 +19,10 @@ const links = [
     { text: "Blippi", url: "https://www.youtube.com/channel/UC5PYHgAzJ1wLEidB58SK6Xw"},
 ]
 
-const AboutPage = () => {
+const Alvaro = () => {
   return (
     <div style={{ backgroundImage: `url(${background})`, height:'700px' }}>
-        <Layout pageTitle="Welcome!">
+        <Layout pageTitle="No sé todavía">
         <main className={pageStyles}>
             <br/>
             <span className={headingSentenceStyles}>“Nothing lights up a child’s brain like play.” <br/>~ Dr. Stuart Brown</span>
@@ -44,4 +44,4 @@ const AboutPage = () => {
   )
 }
 
-export default AboutPage
+export default Alvaro
