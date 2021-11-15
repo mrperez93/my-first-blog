@@ -1,12 +1,9 @@
 import * as React from 'react'
 import Layout from '/src/components/layout';
-import background from "/src/images/alvaro.jpeg";
+import background from "/src/images/lucas.jpeg";
 
 import {
     pageStyles,
-    headingStyles,
-    headingAccentStyles,
-    listItemStyles,
     linkStyle,
     headingSentenceStyles
   } from '/src/components/layout.module.css'
@@ -21,7 +18,7 @@ const links = [
 
 const Alvaro = () => {
   return (
-    <div style={{ backgroundImage: `url(${background})`, height:'700px' }}>
+    <div style={{ backgroundImage: `url(${background})`, height:"700px"}}>
         <Layout pageTitle="No sé todavía">
         <main className={pageStyles}>
             <br/>

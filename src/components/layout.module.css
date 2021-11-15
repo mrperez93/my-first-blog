@@ -70,13 +70,13 @@
 }
 
 .center{
-  text-align: center;
-  display: block;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  width: 100%;
-}
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+  }
 
 .headingSentenceStyles {
   color: rgb(7, 7, 7);
@@ -113,7 +113,7 @@
 .linkStyle {
   color: rgb(8, 8, 8);
   font-size: 3em;
-  margin-left: 2cm;
+  margin-left: 1cm;
   margin-top: 10;
   font-family: "Papyrus";
 }

@@ -1,8 +1,11 @@
 import * as React from 'react'
+import background from "/src/images/lucas.jpeg";
 
 const Lucas = () => {
     return (
-        <h2>Hello, World!</h2>
+        <div style={{ backgroundImage: `url(${background})`, height:"700px"}}>
+            <h2>Hello, World!</h2>
+        </div>
       );
   }
   
