@@ -1,10 +1,6 @@
 import * as React from "react"
 
 import background from "/src/images/back2.jpg";
-import { FaAppStore } from "react-icons/fa";
-import { ImListNumbered } from "react-icons/im";
-import { MdVideoSettings } from "react-icons/md";
-import { CgGames } from "react-icons/cg";
 
 
 const pageStyles = {
@@ -101,25 +97,21 @@ const badgeStyle = {
 // data
 const links = [
  {
-    icon: <FaAppStore />,
     text: "Letters",
     url: "https://www.cokogames.com/snow-letters-typing/",
     color: "#000000",
   },
   {
-    icon: <ImListNumbered />,
     text: "Numbers",
     url: "https://www.cokogames.com/wooden-numbers-matching-game/",
     color: "#000000",
   },
   {
-    icon: <CgGames />,
     text: "Games",
     url: "https://www.cokogames.com/category/games-for-3-years-old/",
     color: "#000000",
   },
   {
-    icon: <MdVideoSettings />,
     text: "Blippi",
     url: "https://www.youtube.com/channel/UC5PYHgAzJ1wLEidB58SK6Xw",
     color: "#000000",
