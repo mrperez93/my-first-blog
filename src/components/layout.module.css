@@ -1,0 +1,145 @@
+.container {
+  margin: auto;
+  max-width: 800px;
+  font-family: sans-serif;
+}
+
+.heading {
+  font-size: 3rem;
+  color: rgb(96, 66, 233);
+  font-weight: 700;
+  margin-top: -50;
+  margin-left: 200;
+  margin-bottom: 64;
+  max-width: 1200;
+  font-family: "Papyrus";
+}
+.nav-links {
+  width: 200;
+  display: flex;
+  list-style: none;
+  padding-left: -20cm;
+  width: 400cm;
+  margin-left: -3.5cm;
+}
+.nav-link-item {
+  margin-top: 1cm;
+  padding-right: 1rem;
+}
+.nav-link-text {
+  font-size: 20px;
+  color: black;
+  font-family: "Monaco";
+  margin-left: 2cm;
+}
+
+.site-title {
+  font-size: 3rem;
+  color: rgb(96, 66, 233);
+  font-weight: 700;
+  margin: 3rem 0;
+  margin-top: -50;
+  margin-left: 150;
+  margin-bottom: 64;
+  max-width: 900;
+  font-family: "Monaco";
+}
+
+.pageStyles {
+  color: rgb(204, 77, 198);
+  font-family: "Monaco";
+}
+
+.headingStyles {
+  margin-top: -50;
+  margin-left: 150;
+  margin-bottom: 64;
+  max-width: 900;
+  color: rgb(0, 0, 255);
+  font-family: mono;
+  font-size: 38;
+}
+
+.headingAccentStyles {
+  color: rgb(0, 0, 255);
+  max-width: 1000;
+  font-family: "Papyrus";
+  font-size: 4rem;
+  margin-top: 12em;
+  margin-left: -1cm;
+}
+
+.headingSentenceStyles {
+  color: rgb(7, 7, 7);
+  width: 590;
+  font-family: "Papyrus";
+  font-size: 1.5rem;
+  margin-top: 30cm;
+  text-align-last: right;
+}
+
+.paragraphStyles {
+  margin-bottom: 48;
+}
+.codeStyles {
+  color: rgb(138, 101, 52);
+  padding: 4;
+  background-color: rgb(255, 244, 219);
+  font-size: 3em;
+  border-radius: 4;
+}
+
+.listStyles {
+  margin-bottom: 96;
+  padding-left: 0;
+}
+
+.listItemStyles {
+  font-weight: 300;
+  font-size: 40;
+  margin-bottom: 30;
+  font-family: "Papyrus";
+}
+
+.linkStyle {
+  color: rgb(8, 8, 8);
+  font-size: 3em;
+  margin-left: 2cm;
+  margin-top: 10;
+  font-family: "Papyrus";
+}
+
+.docLinkStyle {
+  color: rgb(0, 102, 0);
+  font-weight: bold;
+  font-size: 25;
+  vertical-align: 5%;
+  margin-left: 10;
+  font-family: "Monaco";
+  list-style-type: none;
+  margin-bottom: 24;
+}
+
+.descriptionStyle {
+  color: rgb(35, 33, 41);
+  font-size: 14;
+  margin-top: 10;
+  margin-bottom: 0;
+  line-height: 1.25;
+}
+
+.badgeStyle {
+  color: rgb(255, 255, 255);
+  background-color: rgb(8, 132, 18);
+  border: 1px solid rgb(8, 132, 18);
+  font-size: 11;
+  font-weight: bold;
+  letter-spacing: 1;
+  border-radius: 4;
+  padding: 4px;
+  display: inline-block;
+  position: relative;
+  top: -2;
+  margin-left: 10;
+  line-height: 1;
+}
