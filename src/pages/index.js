@@ -6,6 +6,7 @@ import background from "/src/images/back1.jpg";
 import Layout from '/src/components/layout';
 import {
   headingAccentStyles,
+  center,
 } from '/src/components/layout.module.css'
 
 import { useMediaQuery } from 'react-responsive'
@@ -35,11 +36,11 @@ const IndexPage = () => {
         <Layout headingAccentStyles="You can learn and play here!">
           <span className={headingAccentStyles}>You can learn and play here!</span>
         </Layout>
-        <div>
-          <img style={{ height:'300px', marginTop: '90px', marginLeft: '80px'}} src="https://media.giphy.com/media/BhbJdm4nUrmg/giphy.gif" 
+        <div className={center}>
+          <img style={{ height:'250px', marginTop: '90px'}} src="https://media.giphy.com/media/BhbJdm4nUrmg/giphy.gif" 
               alt="react-gif-player pocoyo">
           </img>
-          <img style={{ height:'300px', marginTop: '90px', marginLeft: '160px'}} src="https://media.giphy.com/media/khHeelOsc2uUZOAbFu/giphy.gif" 
+          <img style={{ height:'250px', marginTop: '90px'}} src="https://media.giphy.com/media/khHeelOsc2uUZOAbFu/giphy.gif" 
               alt="react-gif-player blippi">
           </img>
         </div>
@@ -48,11 +49,11 @@ const IndexPage = () => {
         <Layout headingAccentStyles="You can learn and play here!">
           <span className={headingAccentStyles}>You can learn and play here!</span>
         </Layout>
-        <div>
-          <img style={{ height:'200px', marginTop: '90px'}} src="https://media.giphy.com/media/BhbJdm4nUrmg/giphy.gif" 
+        <div className={center}>
+          <img style={{ height:'100px', marginTop: '90px'}} src="https://media.giphy.com/media/BhbJdm4nUrmg/giphy.gif" 
               alt="react-gif-player pocoyo">
           </img>
-          <img style={{ height:'200px', marginTop: '90px'}} src="https://media.giphy.com/media/khHeelOsc2uUZOAbFu/giphy.gif" 
+          <img style={{ height:'100px', marginTop: '90px'}} src="https://media.giphy.com/media/khHeelOsc2uUZOAbFu/giphy.gif" 
               alt="react-gif-player blippi">
           </img>
         </div>
@@ -61,11 +62,11 @@ const IndexPage = () => {
         <Layout headingAccentStyles="You can learn and play here!">
         <span className={headingAccentStyles}>You can learn and play here!</span>
         </Layout>
-        <div>
-          <img style={{ height:'100px', marginTop: '90px'}} src="https://media.giphy.com/media/BhbJdm4nUrmg/giphy.gif" 
+        <div className={center}>
+          <img style={{ height:'80px', marginTop: '90px'}} src="https://media.giphy.com/media/BhbJdm4nUrmg/giphy.gif" 
               alt="react-gif-player pocoyo">
           </img>
-          <img style={{ height:'100px', marginTop: '90px'}} src="https://media.giphy.com/media/khHeelOsc2uUZOAbFu/giphy.gif" 
+          <img style={{ height:'80px', marginTop: '90px'}} src="https://media.giphy.com/media/khHeelOsc2uUZOAbFu/giphy.gif" 
               alt="react-gif-player blippi">
           </img>
         </div>
