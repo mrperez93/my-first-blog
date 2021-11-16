@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { Link, useStaticQuery, graphql } from 'gatsby'
+import Button from 'react-bootstrap/Button'
 
 import {
   container,
@@ -29,17 +30,23 @@ const Layout = ({ pageTitle, children }) => {
         <ul className={navLinks}>
           <li className={navLinkItem}>
             <Link to="/" className={navLinkText}>
-              Home
+              <Button variant="warning">
+                Home
+              </Button>{' '}
             </Link>
           </li>
           <li className={navLinkItem}>
             <Link to="/alvaro" className={navLinkText}>
-              Álvaro Subirats Ramírez
+              <Button variant="warning">
+                Álvaro Subirats Ramírez
+              </Button>{' '}
             </Link>
           </li>
           <li className={navLinkItem}>
             <Link to="/lucas" className={navLinkText}>
-              Lucas Subirats Ramírez
+              <Button variant="warning">
+                Lucas Subirats Ramírez
+              </Button>{' '}
             </Link>
           </li>
         </ul>

@@ -81,7 +81,7 @@
   max-width: 1000;
   font-family: "Papyrus";
   font-size: 4rem;
-  margin-top: 12em;
+  margin-top: 15em;
   margin-left: -1cm;
 }
 
@@ -98,7 +98,7 @@
   color: rgb(7, 7, 7);
   width: 590;
   font-family: "Papyrus";
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   margin-top: 30cm;
   text-align-last: right;
 }
@@ -127,11 +127,19 @@
 }
 
 .linkStyle {
-  color: rgb(8, 8, 8);
-  font-size: 3em;
+  color: rgb(141, 20, 197);
+  font-size: 2em;
   margin-left: 1cm;
   margin-top: 10;
   font-family: "Papyrus";
+}
+
+.linkLucasStyle {
+  color: rgb(141, 20, 197);
+  font-size: 1.2em;
+  margin-left: 1cm;
+  margin-top: 10;
+  font-family: "Verdana";
 }
 
 .docLinkStyle {

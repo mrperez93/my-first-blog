@@ -4,34 +4,34 @@ import background from "/src/images/lucas.jpeg";
 
 import {
     pageStyles,
-    linkStyle,
+    linkLucasStyle,
     headingSentenceStyles
   } from '/src/components/layout.module.css'
 
 // data
 const links = [
-    { text: "Letters", url: "https://www.cokogames.com/snow-letters-typing/"},
-    { text: "Numbers", url: "https://www.cokogames.com/wooden-numbers-matching-game/"},
-    { text: "Games", url: "https://www.cokogames.com/category/games-for-3-years-old/"},
-    { text: "Blippi", url: "https://www.youtube.com/channel/UC5PYHgAzJ1wLEidB58SK6Xw"},
+    { text: "Go to bed", url: "https://www.youtube.com/watch?v=ZzEXobyuyOQ&t=4319s"},
+    { text: "How Many Leaves?", url: "https://www.youtube.com/watch?v=GtCiE4aK9QA"},
+    { text: "Body Parts Song", url: "https://www.youtube.com/watch?v=QkHQ0CYwjaI"},
+    { text: "Good Morning Sond", url: "https://www.youtube.com/watch?v=U9Q7Y3t4m3g"},
 ]
 
 const Lucas = () => {
   return (
     <div style={{ backgroundImage: `url(${background})`, height:"700px"}}>
-        <Layout pageTitle="No sé">
+        <Layout pageTitle="">
         <main className={pageStyles}>
-            <br/>
-            <span className={headingSentenceStyles}>“Nothing lights up a child’s brain like play.” <br/>~ Dr. Stuart Brown</span>
             <br/><br/><br/>
-            {links.map(link_alvaro =>
+            <span className={headingSentenceStyles}>“Play is a behavior which requires a healthy habitat to thrive.” <br/>~ Dr. Stuart Brown</span>
+            <br/><br/><br/>
+            {links.map(link_lucas =>
                 <span>
                     <a
-                    className={linkStyle}
-                    href={`${link_alvaro.url}`}
+                    className={linkLucasStyle}
+                    href={`${link_lucas.url}`}
                     target="_blank"
                     >
-                    {link_alvaro.text}
+                    {link_lucas.text}
                     </a>
                 </span>
             )}

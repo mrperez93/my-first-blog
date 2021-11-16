@@ -2,7 +2,7 @@ import * as React from "react"
 
 import background from "/src/images/back1.jpg";
 
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Layout from '/src/components/layout';
 import {
   headingAccentStyles,

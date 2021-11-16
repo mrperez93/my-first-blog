@@ -10,18 +10,18 @@ import {
 
 // data
 const links = [
-    { text: "Letters", url: "https://www.cokogames.com/snow-letters-typing/"},
-    { text: "Numbers", url: "https://www.cokogames.com/wooden-numbers-matching-game/"},
-    { text: "Games", url: "https://www.cokogames.com/category/games-for-3-years-old/"},
-    { text: "Blippi", url: "https://www.youtube.com/channel/UC5PYHgAzJ1wLEidB58SK6Xw"},
+  { text: "Letters", url: "https://www.cokogames.com/snow-letters-typing/"},
+  { text: "Numbers", url: "https://www.cokogames.com/wooden-numbers-matching-game/"},
+  { text: "Games", url: "https://www.cokogames.com/category/games-for-3-years-old/"},
+  { text: "Blippi", url: "https://www.youtube.com/channel/UC5PYHgAzJ1wLEidB58SK6Xw"},
 ]
 
 const Alvaro = () => {
   return (
     <div style={{ backgroundImage: `url(${background})`, height:"700px"}}>
-        <Layout pageTitle="No sé todavía">
+        <Layout pageTitle="">
         <main className={pageStyles}>
-            <br/>
+            <br/><br/><br/>
             <span className={headingSentenceStyles}>“Nothing lights up a child’s brain like play.” <br/>~ Dr. Stuart Brown</span>
             <br/><br/><br/><br/><br/><br/><br/>
             {links.map(link_alvaro =>
