@@ -3134,7 +3134,7 @@
   dependencies:
     "@babel/helper-define-polyfill-provider" "^0.2.4"
 
-"babel-plugin-remove-graphql-queries@^4.1.2", "babel-plugin-remove-graphql-queries@^4.1.3":
+"babel-plugin-remove-graphql-queries@^4.1.3":
   "integrity" "sha512-84LUlWYfw+aQjUNsd81DwjdOPpQI9/EnxL7smdkFH1WjwfIhAaJYW+tNN4eZLurhexI5mYdHIJQ3kD6hpzwkNw=="
   "resolved" "https://registry.npmjs.org/babel-plugin-remove-graphql-queries/-/babel-plugin-remove-graphql-queries-4.1.3.tgz"
   "version" "4.1.3"
@@ -3185,10 +3185,10 @@
     "@babel/plugin-transform-template-literals" "^7.0.0"
     "babel-plugin-syntax-trailing-function-commas" "^7.0.0-beta.0"
 
-"babel-preset-gatsby@^2.1.2":
-  "integrity" "sha512-i9/o/MCQS4R4+vr6Bpy0QuoiAxhdkNEGwmfxGWdna7X+YVS3clkMigceMD38FTKwX0hc5ifoezBt+AFDQkUcwQ=="
-  "resolved" "https://registry.npmjs.org/babel-preset-gatsby/-/babel-preset-gatsby-2.1.2.tgz"
-  "version" "2.1.2"
+"babel-preset-gatsby@^2.1.3":
+  "integrity" "sha512-O9yqDlzPrcY/Q1AsoMMbWcbt1cjc7rLP8Ga04/jxukPGI1GqK6FPFv8LVuPPI2lNKK2RLfhIoaaVgvcB5P2ZFw=="
+  "resolved" "https://registry.npmjs.org/babel-preset-gatsby/-/babel-preset-gatsby-2.1.3.tgz"
+  "version" "2.1.3"
   dependencies:
     "@babel/plugin-proposal-class-properties" "^7.14.0"
     "@babel/plugin-proposal-nullish-coalescing-operator" "^7.14.5"
@@ -3203,7 +3203,7 @@
     "babel-plugin-dynamic-import-node" "^2.3.3"
     "babel-plugin-macros" "^2.8.0"
     "babel-plugin-transform-react-remove-prop-types" "^0.4.24"
-    "gatsby-core-utils" "^3.1.2"
+    "gatsby-core-utils" "^3.1.3"
     "gatsby-legacy-polyfills" "^2.1.0"
 
 "backo2@^1.0.2", "backo2@~1.0.2":
@@ -6030,10 +6030,10 @@
   "resolved" "https://registry.npmjs.org/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz"
   "version" "1.0.1"
 
-"gatsby-cli@^4.1.3":
-  "integrity" "sha512-GKOKnNXNMCJ/FDTieZ0eAVbOWoDRzSbbUU1+QQzbSvWl2fBtWXvpz9Grrk66gkHlu1KtqzuN9zR11AIa12dEzw=="
-  "resolved" "https://registry.npmjs.org/gatsby-cli/-/gatsby-cli-4.1.3.tgz"
-  "version" "4.1.3"
+"gatsby-cli@^4.1.4":
+  "integrity" "sha512-B8PYO0FPZMuaEJnvLDPPfEO+xHci7pWoS0NnEKKd+12kneObi4doQp0vqqAG+PS3oNtBRGy1nLglf8BTpCex8Q=="
+  "resolved" "https://registry.npmjs.org/gatsby-cli/-/gatsby-cli-4.1.4.tgz"
+  "version" "4.1.4"
   dependencies:
     "@babel/code-frame" "^7.14.0"
     "@babel/runtime" "^7.15.4"
@@ -6050,9 +6050,9 @@
     "execa" "^5.1.1"
     "fs-exists-cached" "^1.0.0"
     "fs-extra" "^10.0.0"
-    "gatsby-core-utils" "^3.1.2"
-    "gatsby-recipes" "^1.1.2"
-    "gatsby-telemetry" "^3.1.2"
+    "gatsby-core-utils" "^3.1.3"
+    "gatsby-recipes" "^1.1.3"
+    "gatsby-telemetry" "^3.1.3"
     "hosted-git-info" "^3.0.8"
     "is-valid-path" "^0.1.1"
     "joi" "^17.4.2"
@@ -6076,7 +6076,7 @@
     "yoga-layout-prebuilt" "^1.10.0"
     "yurnalist" "^2.1.0"
 
-"gatsby-core-utils@^3.1.2", "gatsby-core-utils@^3.1.3":
+"gatsby-core-utils@^3.1.3":
   "integrity" "sha512-+pg2i3DYVLzmJ/67SVGM+zVxerilGCbcgVxDoN58Y+Htv5TwogUWzPymfoFrJEsWGhlVKlYq7I8jVWSXPzwMHw=="
   "resolved" "https://registry.npmjs.org/gatsby-core-utils/-/gatsby-core-utils-3.1.3.tgz"
   "version" "3.1.3"
@@ -6116,16 +6116,16 @@
     "@types/reach__router" "^1.3.9"
     "prop-types" "^15.7.2"
 
-"gatsby-page-utils@^2.1.2":
-  "integrity" "sha512-b38U8DRptVaiLlVnQikcVA5PYeqlGCE+pWxqum+wvSuKowy0mKddxeMgHylk7KmKhTc1jBalFpk3fJrdO+pymQ=="
-  "resolved" "https://registry.npmjs.org/gatsby-page-utils/-/gatsby-page-utils-2.1.2.tgz"
-  "version" "2.1.2"
+"gatsby-page-utils@^2.1.3":
+  "integrity" "sha512-5CrSKsXXF6gk6ZxueyE1z1HHZ4I/+y4nEcYliTl7fpNG+dGIKgmuQIjJoigcvZGEVhn9gk1BTDjBFUuXGrSgNA=="
+  "resolved" "https://registry.npmjs.org/gatsby-page-utils/-/gatsby-page-utils-2.1.3.tgz"
+  "version" "2.1.3"
   dependencies:
     "@babel/runtime" "^7.15.4"
     "bluebird" "^3.7.2"
     "chokidar" "^3.5.2"
     "fs-exists-cached" "^1.0.0"
-    "gatsby-core-utils" "^3.1.2"
+    "gatsby-core-utils" "^3.1.3"
     "glob" "^7.1.7"
     "lodash" "^4.17.21"
     "micromatch" "^4.0.4"
@@ -6213,20 +6213,20 @@
     "unist-util-remove" "^1.0.3"
     "unist-util-visit" "^1.4.1"
 
-"gatsby-plugin-page-creator@^4.1.3":
-  "integrity" "sha512-zS1gEpKIA6Q1lLR+YzZgD1F3h77E/BZr9MZzI7tTGxk6UvFnvD72aD1UaQbRTME8ZlBXxvnJ8/OITPfOYclW8w=="
-  "resolved" "https://registry.npmjs.org/gatsby-plugin-page-creator/-/gatsby-plugin-page-creator-4.1.3.tgz"
-  "version" "4.1.3"
+"gatsby-plugin-page-creator@^4.1.4":
+  "integrity" "sha512-MLs/C0Tc+uzRDmiWZyXdE5plDG/DeRnCgsd4iXBkeClzdVyToJSQWNlA30knMAS2jbtZdmYxQIPLvwO3CYd4/Q=="
+  "resolved" "https://registry.npmjs.org/gatsby-plugin-page-creator/-/gatsby-plugin-page-creator-4.1.4.tgz"
+  "version" "4.1.4"
   dependencies:
     "@babel/runtime" "^7.15.4"
     "@babel/traverse" "^7.15.4"
     "@sindresorhus/slugify" "^1.1.2"
     "chokidar" "^3.5.2"
     "fs-exists-cached" "^1.0.0"
-    "gatsby-core-utils" "^3.1.2"
-    "gatsby-page-utils" "^2.1.2"
+    "gatsby-core-utils" "^3.1.3"
+    "gatsby-page-utils" "^2.1.3"
     "gatsby-plugin-utils" "^2.1.1"
-    "gatsby-telemetry" "^3.1.2"
+    "gatsby-telemetry" "^3.1.3"
     "globby" "^11.0.4"
     "lodash" "^4.17.21"
 
@@ -6271,10 +6271,10 @@
     "minimatch" "^3.0.4"
     "sitemap" "^7.0.0"
 
-"gatsby-plugin-typescript@^4.1.2":
-  "integrity" "sha512-FpACah/J1HSQFHpTI9cVmV0Dn1L6GobtceLgXQHm19pPHMqMC+gjCASmMLmSBE6Rao1xUMDrjmafCer51Ic0Ew=="
-  "resolved" "https://registry.npmjs.org/gatsby-plugin-typescript/-/gatsby-plugin-typescript-4.1.2.tgz"
-  "version" "4.1.2"
+"gatsby-plugin-typescript@^4.1.3":
+  "integrity" "sha512-1yc3q6rszJztj6xd1phd6DnmYAlK7H3RBRT0Oy+tcdphkd307CktDJdrT+ix93O/7UEZnu9nGM5IC8DRCNdYpA=="
+  "resolved" "https://registry.npmjs.org/gatsby-plugin-typescript/-/gatsby-plugin-typescript-4.1.3.tgz"
+  "version" "4.1.3"
   dependencies:
     "@babel/core" "^7.15.5"
     "@babel/plugin-proposal-nullish-coalescing-operator" "^7.14.5"
@@ -6282,7 +6282,7 @@
     "@babel/plugin-proposal-optional-chaining" "^7.14.5"
     "@babel/preset-typescript" "^7.15.0"
     "@babel/runtime" "^7.15.4"
-    "babel-plugin-remove-graphql-queries" "^4.1.2"
+    "babel-plugin-remove-graphql-queries" "^4.1.3"
 
 "gatsby-plugin-utils@^2.1.1":
   "integrity" "sha512-LzLLSg9CWCi4qMqYNYkt8vAoySkNWKfB8QKJKnpU5qzo/3vjZAx9iWHmoNRYLCCHg1bgJn2Kr5cwOMYAEJspyg=="
@@ -6299,10 +6299,10 @@
   dependencies:
     "@babel/runtime" "^7.15.4"
 
-"gatsby-recipes@^1.1.2":
-  "integrity" "sha512-r6FSPM2eKH+rlC6JX0SgVYBFxBXJW5J/MwFtsP8N+C6Yvr7Cosi9OlMreMx/SBza4HYMXxIoDBYvX68qbBQrhg=="
-  "resolved" "https://registry.npmjs.org/gatsby-recipes/-/gatsby-recipes-1.1.2.tgz"
-  "version" "1.1.2"
+"gatsby-recipes@^1.1.3":
+  "integrity" "sha512-AdO9Y7vtpa0VSWXe3gZIeIUDJ6/j/MeAkpkuJHbbU8hix9gtbVPoOcmF8VFJUMALNRzhhFsgqRN2mK6jXJlang=="
+  "resolved" "https://registry.npmjs.org/gatsby-recipes/-/gatsby-recipes-1.1.3.tgz"
+  "version" "1.1.3"
   dependencies:
     "@babel/core" "^7.15.5"
     "@babel/generator" "^7.15.4"
@@ -6328,8 +6328,8 @@
     "express" "^4.17.1"
     "express-graphql" "^0.12.0"
     "fs-extra" "^10.0.0"
-    "gatsby-core-utils" "^3.1.2"
-    "gatsby-telemetry" "^3.1.2"
+    "gatsby-core-utils" "^3.1.3"
+    "gatsby-telemetry" "^3.1.3"
     "glob" "^7.1.6"
     "graphql" "^15.4.0"
     "graphql-compose" "~7.25.0"
@@ -6383,7 +6383,7 @@
     "valid-url" "^1.0.9"
     "xstate" "^4.14.0"
 
-"gatsby-telemetry@^3.1.2", "gatsby-telemetry@^3.1.3":
+"gatsby-telemetry@^3.1.3":
   "integrity" "sha512-vZSj67F4vzoqqK5CyNIRTDTWOqhBYkMey+i6swY3H51tehGTHRyzzOhJorQOJa76cQOcOMXr1/vvxX1T84Y96g=="
   "resolved" "https://registry.npmjs.org/gatsby-telemetry/-/gatsby-telemetry-3.1.3.tgz"
   "version" "3.1.3"
@@ -6453,9 +6453,9 @@
     "@babel/runtime" "^7.15.4"
 
 "gatsby@^4.0.0-next", "gatsby@^4.1.5":
-  "integrity" "sha512-TbPqdZl86vm47v04mfTkdFmv+Hnnob3qMEGCBEeaHI6Z9a38RaPQsRMBkbQh+l7Z1Pc6UWD1Lw/wDhL4cDNe+Q=="
-  "resolved" "https://registry.npmjs.org/gatsby/-/gatsby-4.1.5.tgz"
-  "version" "4.1.5"
+  "integrity" "sha512-cXgP3k9Jxw4yv7lKWt/F5RRMPbJREI/180zHYrfgT+KlOm9VQ0TImRzBq4XJBKQVGcYUxD9+QKY75e81onPNwg=="
+  "resolved" "https://registry.npmjs.org/gatsby/-/gatsby-4.1.6.tgz"
+  "version" "4.1.6"
   dependencies:
     "@babel/code-frame" "^7.14.0"
     "@babel/core" "^7.15.5"
@@ -6481,8 +6481,8 @@
     "babel-plugin-add-module-exports" "^1.0.4"
     "babel-plugin-dynamic-import-node" "^2.3.3"
     "babel-plugin-lodash" "^3.3.4"
-    "babel-plugin-remove-graphql-queries" "^4.1.2"
-    "babel-preset-gatsby" "^2.1.2"
+    "babel-plugin-remove-graphql-queries" "^4.1.3"
+    "babel-preset-gatsby" "^2.1.3"
     "better-opn" "^2.1.1"
     "bluebird" "^3.7.2"
     "body-parser" "^1.19.0"
@@ -6524,16 +6524,16 @@
     "find-cache-dir" "^3.3.2"
     "fs-exists-cached" "1.0.0"
     "fs-extra" "^10.0.0"
-    "gatsby-cli" "^4.1.3"
-    "gatsby-core-utils" "^3.1.2"
+    "gatsby-cli" "^4.1.4"
+    "gatsby-core-utils" "^3.1.3"
     "gatsby-graphiql-explorer" "^2.1.0"
     "gatsby-legacy-polyfills" "^2.1.0"
     "gatsby-link" "^4.1.0"
-    "gatsby-plugin-page-creator" "^4.1.3"
-    "gatsby-plugin-typescript" "^4.1.2"
+    "gatsby-plugin-page-creator" "^4.1.4"
+    "gatsby-plugin-typescript" "^4.1.3"
     "gatsby-plugin-utils" "^2.1.1"
     "gatsby-react-router-scroll" "^5.1.0"
-    "gatsby-telemetry" "^3.1.2"
+    "gatsby-telemetry" "^3.1.3"
     "gatsby-worker" "^1.1.0"
     "glob" "^7.2.0"
     "got" "^11.8.2"
@@ -8631,12 +8631,7 @@
     "dayjs" "^1.8.15"
     "yargs" "^15.1.0"
 
-"longest-streak@^2.0.0":
-  "integrity" "sha512-vM6rUVCVUJJt33bnmHiZEvr7wPT78ztX7rojL+LW51bHtLh6HTjx84LA5W4+oa6aKEJA7jJu5LR6vQRBpA5DVg=="
-  "resolved" "https://registry.npmjs.org/longest-streak/-/longest-streak-2.0.4.tgz"
-  "version" "2.0.4"
-
-"longest-streak@^2.0.1":
+"longest-streak@^2.0.0", "longest-streak@^2.0.1":
   "integrity" "sha512-vM6rUVCVUJJt33bnmHiZEvr7wPT78ztX7rojL+LW51bHtLh6HTjx84LA5W4+oa6aKEJA7jJu5LR6vQRBpA5DVg=="
   "resolved" "https://registry.npmjs.org/longest-streak/-/longest-streak-2.0.4.tgz"
   "version" "2.0.4"
@@ -8682,7 +8677,12 @@
   dependencies:
     "tslib" "^2.0.3"
 
-"lowercase-keys@^1.0.0", "lowercase-keys@^1.0.1":
+"lowercase-keys@^1.0.0":
+  "integrity" "sha512-G2Lj61tXDnVFFOi8VZds+SoQjtQC3dgokKdDG2mTm1tx4m50NUHBOZSBwQQHyy0V12A0JTG4icfZQH+xPyh8VA=="
+  "resolved" "https://registry.npmjs.org/lowercase-keys/-/lowercase-keys-1.0.1.tgz"
+  "version" "1.0.1"
+
+"lowercase-keys@^1.0.1":
   "integrity" "sha512-G2Lj61tXDnVFFOi8VZds+SoQjtQC3dgokKdDG2mTm1tx4m50NUHBOZSBwQQHyy0V12A0JTG4icfZQH+xPyh8VA=="
   "resolved" "https://registry.npmjs.org/lowercase-keys/-/lowercase-keys-1.0.1.tgz"
   "version" "1.0.1"
@@ -11910,9 +11910,9 @@
     "micromark-extension-gfm" "^0.3.0"
 
 "remark-mdx@^2.0.0-next.4":
-  "integrity" "sha512-y3cj3wDwpXTE1boMco/nsquHj2noK0mtnXwBC8FJ/CtU06y66jOBWX1kLknluBl06pYbxtx1ypAOHKvjgT4vsA=="
-  "resolved" "https://registry.npmjs.org/remark-mdx/-/remark-mdx-2.0.0-rc.1.tgz"
-  "version" "2.0.0-rc.1"
+  "integrity" "sha512-TMgFSEVx42/YzJWjDY+GKw7CGSbp3XKqBraXPxFS27r8iD9U6zuOZKXH4MoLl9JqiTOmQi0M1zJwT2YhPs32ug=="
+  "resolved" "https://registry.npmjs.org/remark-mdx/-/remark-mdx-2.0.0-rc.2.tgz"
+  "version" "2.0.0-rc.2"
   dependencies:
     "mdast-util-mdx" "^1.0.0"
     "micromark-extension-mdxjs" "^1.0.0"
@@ -13059,16 +13059,7 @@
     "is-alphanumerical" "^1.0.0"
     "is-hexadecimal" "^1.0.0"
 
-"stringify-entities@^3.0.0":
-  "integrity" "sha512-3FP+jGMmMV/ffZs86MoghGqAoqXAdxLrJP4GUdrDN1aIScYih5tuIO3eF4To5AJZ79KDZ8Fpdy7QJnK8SsL1Vg=="
-  "resolved" "https://registry.npmjs.org/stringify-entities/-/stringify-entities-3.1.0.tgz"
-  "version" "3.1.0"
-  dependencies:
-    "character-entities-html4" "^1.0.0"
-    "character-entities-legacy" "^1.0.0"
-    "xtend" "^4.0.0"
-
-"stringify-entities@^3.0.1":
+"stringify-entities@^3.0.0", "stringify-entities@^3.0.1":
   "integrity" "sha512-3FP+jGMmMV/ffZs86MoghGqAoqXAdxLrJP4GUdrDN1aIScYih5tuIO3eF4To5AJZ79KDZ8Fpdy7QJnK8SsL1Vg=="
   "resolved" "https://registry.npmjs.org/stringify-entities/-/stringify-entities-3.1.0.tgz"
   "version" "3.1.0"
@@ -13618,7 +13609,12 @@
   dependencies:
     "prelude-ls" "^1.2.1"
 
-"type-fest@^0.13.1", "type-fest@^0.20.2":
+"type-fest@^0.13.1":
+  "integrity" "sha512-34R7HTnG0XIJcBSn5XhDd7nNFPRcXYRZrBB2O2jdKqYODldSzBAqzsWoZYYvduky73toYS/ESqxPvkDf/F0XMg=="
+  "resolved" "https://registry.npmjs.org/type-fest/-/type-fest-0.13.1.tgz"
+  "version" "0.13.1"
+
+"type-fest@^0.20.2":
   "integrity" "sha512-Ne+eE4r0/iWnpAxD852z3A+N0Bt5RN//NjJwRd2VFHEmrywxf5vsZlh4R6lixl6B+wz/8d+maTSAkN1FIkI3LQ=="
   "resolved" "https://registry.npmjs.org/type-fest/-/type-fest-0.20.2.tgz"
   "version" "0.20.2"
