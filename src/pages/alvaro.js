@@ -1,6 +1,6 @@
 import * as React from 'react'
 import Layout from '/src/components/layout';
-import background from "/src/images/lucas.jpeg";
+import background from "/src/images/alvaro.jpeg";
 
 import {
     pageStyles,

@@ -1,13 +1,23 @@
 module.exports = {
+  siteMetadata: {
+    siteUrl: "https://myfirstblogmaster.gatsbyjs.io/",
+  },
   plugins: [
     "gatsby-plugin-image",
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
-        trackingId: "200219",
+        trackingId: "123456789",
       },
     },
     "gatsby-plugin-react-helmet",
+    "gatsby-plugin-sitemap",
+    {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        icon: "src/images/icon.png",
+      },
+    },
     "gatsby-transformer-remark",
     "gatsby-plugin-mdx",
     "gatsby-plugin-sharp",
